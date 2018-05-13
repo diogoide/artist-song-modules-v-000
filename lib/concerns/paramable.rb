@@ -1,4 +1,4 @@
-module paramable
+module {aramable
 
   def to_param
     name.downcase.gsub(' ', '-')

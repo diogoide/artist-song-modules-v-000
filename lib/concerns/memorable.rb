@@ -10,7 +10,7 @@ module Memorable
     end
 
     def count
-      @@artists.count
+      artist.all.count
     end
 
     # def self.reset_all

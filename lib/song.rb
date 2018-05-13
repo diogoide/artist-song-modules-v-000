@@ -5,6 +5,7 @@ class Song
   attr_reader :artist
   extend Memorable::MethodClass
   extend Findable
+  extend Paramable 
 
   @@songs = []
 

@@ -7,7 +7,7 @@ module Memorable
     end
 
     def count
-      artist.all.count
+      artist.class.all.count
     end
 
     # def self.reset_all

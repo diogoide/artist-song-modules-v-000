@@ -1,5 +1,5 @@
 module Memorable
-  module MethodClass
+  module ClassMethod 
 
 
     def reset_all
@@ -10,7 +10,7 @@ module Memorable
       self.all.count
     end
 
-  module InstanceMethods
+  module InstanceMethod
     
     def initialize
       self.class.all << self

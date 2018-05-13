@@ -1,10 +1,10 @@
 module Memorable
   module MethodClass
 
-    def initialize
-      @@artists
-    end
-
+    def initialize 
+      @@artists = [] 
+    end 
+    
     def reset_all
       self.all.clear
     end
